@@ -17,9 +17,12 @@ It uses **Socket.IO** for real-time communication between the client and server.
 
 ## 📂 Project Structure
 ChatBot-Using-GenAI/
-│── app.py # Flask/SocketIO backend
-│── run.py # Optional entry point
+│── app.py           # Flask/SocketIO backend
+│── run.py           # Optional entry point
 │── requirements.txt # Python dependencies
 │── templates/
+│   └── index.html   # Frontend UI
+└── static/          # (Optional) CSS/JS files if separated
+
 │ └── index.html # Frontend UI
 └── static/ # (Optional) CSS/JS files if separated
